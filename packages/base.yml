@@ -47,8 +47,8 @@ wifi:
   enable_rrm: true
   enable_btm: true
   # Enable fallback hotspot (captive portal) in case wifi connection fails
-  ap:
-    password: !secret wifi_hotspot_password
+  #ap:
+  #  password: !secret wifi_hotspot_password
 
 captive_portal:
 improv_serial:
